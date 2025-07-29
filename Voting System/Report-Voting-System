@@ -1,0 +1,63 @@
+ FURSAT HO TO DEKH LENA!!!!!!!!!!!!!!!!!!!!!!!!!
+
+CS 121 L – Programming Fundamentals (PF)
+
+ Final Project Report
+
+OBJECTIVE:
+The primary objective of this project is to understand the use of structures in C, learn about functions, loops, and user input/output, develop a basic menu-driven application, Simulate a real-world voting process in programming form.
+Student Name:	Raja Danish
+Roll Number:	BSCS24101014
+Course:	Programming Fundamentals
+Project Title:	Voting System 
+ 
+
+Introduction:
+This project presents a simple Voting System built using the C programming language. It allows users to cast votes for five predefined candidates, view the current vote standings, and exit the program. The system uses basic arrays, structures, and loops, and serves as a practical example of user interaction in console-based applications.
+Feature of Project:
+•	Menu-driven interface with three main options:
+•	 Cast Vote
+•	 Show Results
+•	 Exit Program
+•	 Display of vote counts for each candidate.
+•	 Displays the current winning candidate.
+•	Input validation for correct and incorrect entries.
+•	 Clear and interactive command-line interface.
+Code Structure:
+Structure Declaration:
+struct candidates {
+  int votes;
+  char name[30];
+};
+Global Variables:
+struct candidate’s member [5];
+Main Function:
+Handles the menu interface and calls the appropriate functions based on user selection.
+castVote() Function:
+Displays the list of candidates and records the vote by increasing the selected candidate’s vote count.
+voteCount() Function:
+Displays each candidate’s vote count and determines the candidate with the highest votes.
+
+Output:
+1.	Cast Vote
+2.	Show Result
+3.	Exit
+
+Select an option to proceed: 1
+
+1)	John
+2)	Jerry
+3)	Jack
+4)	Joe
+5)	Joker
+
+Please enter your choice: 3
+
+You voted for: Jack
+Thank you for voting!
+Conclusion:
+This project successfully demonstrates how a basic voting system can be implemented in C using structures, loops, and functions. It reflects real-life application of fundamental programming concepts and encourages better understanding of logical flow and data handling.
+Future Improvements:
+•	Add option to register new candidates.
+•	Secure voting with login system.
+•	Store data in files for persistent results.
